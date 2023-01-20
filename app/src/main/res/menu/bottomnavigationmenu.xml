@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home_fragment"
+        android:title="HOME"
+        android:icon="@drawable/home" />
+
+    <item android:id="@+id/offer_fragment"
+        android:title="OFFERS"
+        android:icon="@drawable/discount"/>
+
+    <item android:id="@+id/recipe_fragment"
+        android:title="RECIPES"
+        android:icon="@drawable/recipe" />
+
+    <item android:id="@+id/account_fragment"
+        android:title="ACCOUNT"
+        android:icon="@drawable/user"/>
+
+    <item android:id="@+id/more_fragment"
+        android:icon="@drawable/dots"/>
+
+</menu>

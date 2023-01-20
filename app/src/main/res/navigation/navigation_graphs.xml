@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationGraphs"
+    app:startDestination="@+id/home_fragment">
+
+    <fragment android:id="@+id/home_fragment"
+        android:name="com.example.gourmetegypt.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/offer_fragment"
+        android:name="com.example.gourmetegypt.OfferFragment"
+        tools:layout="@layout/fragment_offer"/>
+
+    <fragment android:id="@+id/recipe_fragment"
+        android:name="com.example.gourmetegypt.RecipeFragment"
+        tools:layout="@layout/fragment_recipe"/>
+
+    <fragment android:id="@+id/account_fragment"
+        android:name="com.example.gourmetegypt.AccountFragment"
+        tools:layout="@layout/fragment_account"/>
+
+    <fragment android:id="@+id/more_fragment"
+        android:name="com.example.gourmetegypt.MoreFragment"
+        tools:layout="@layout/fragment_more"/>
+
+</navigation>

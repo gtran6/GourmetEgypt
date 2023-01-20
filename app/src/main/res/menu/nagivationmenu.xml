@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/layout1"
+            android:title="Christmas"
+            android:icon="@drawable/christmastree">
+
+        </item>
+
+        <item android:id="@+id/layout2"
+            android:title="Handrafted By Gourmet"
+            android:icon="@drawable/chefhat">
+
+        </item>
+
+        <item android:id="@+id/layout3"
+            android:title="Gourmet Collaborations"
+            android:icon="@drawable/collab">
+
+        </item>
+
+        <item android:id="@+id/layout4"
+            android:title="Beverages"
+            android:icon="@drawable/hottea">
+
+        </item>
+
+        <item android:id="@+id/layout5"
+            android:title="Bakery &amp; Pastry"
+            android:icon="@drawable/bread">
+
+        </item>
+
+        <item android:id="@+id/layout6"
+            android:title="Fresh Fruits, Vegetables\n&amp; Flowers"
+            android:icon="@drawable/carrot">
+
+        </item>
+
+        <item android:id="@+id/layout7"
+            android:title="Dairy &amp; Eggs"
+            android:icon="@drawable/cheese">
+
+        </item>
+
+        <item android:id="@+id/layout8"
+            android:title="Cold Cuts &amp; Deli">
+
+        </item>
+
+        <item android:id="@+id/layout9"
+            android:title="Meat &amp; Poultry"
+            android:icon="@drawable/meat">
+
+        </item>
+
+        <item android:id="@+id/layout10"
+            android:title="Fish &amp; Seafood"
+            android:icon="@drawable/fish">
+
+        </item>
+
+        <item android:id="@+id/layout11"
+            android:title="Frozen"
+            android:icon="@drawable/frozen">
+
+        </item>
+
+        <item android:id="@+id/layout12"
+            android:title="Food Cupboard">
+
+        </item>
+
+        <item android:id="@+id/layout13"
+            android:title="Desserts &amp; Sweets">
+
+        </item>
+
+        <item android:id="@+id/layout14"
+            android:title="Household">
+
+        </item>
+
+        <item android:id="@+id/layout15"
+            android:title="Health &amp; Beauty">
+
+        </item>
+
+        <item android:id="@+id/layout16"
+            android:title="Baby">
+
+        </item>
+
+        <item android:id="@+id/layout17"
+            android:title="Pet Supplies">
+
+        </item>
+
+        <item android:id="@+id/layout18"
+            android:title="Exclusively At Gourmet">
+
+        </item>
+
+        <item android:id="@+id/layout19"
+            android:title="Midnight Essentials">
+
+        </item>
+
+        <item android:id="@+id/layout20"
+            android:title="World Foods">
+
+        </item>
+
+        <item android:id="@+id/layout21"
+            android:title="Special Diets">
+
+        </item>
+
+        <item android:id="@+id/layout22"
+            android:title="Organic">
+
+        </item>
+
+    </group>
+
+</menu>
