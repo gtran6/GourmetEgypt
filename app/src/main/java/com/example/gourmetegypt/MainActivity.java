@@ -65,10 +65,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavHostFragment navHostFragment =
                 (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.container_fragment);
-
         navController = navHostFragment.getNavController();
-        //navController = Navigation.findNavController(this, R.id.container_fragment);
-
         NavigationUI.setupWithNavController(activityMainTestBinding.bottomNavigationView, navController);
 
         setSupportActionBar(activityMainTestBinding.toolbar);
@@ -94,6 +91,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
         activityMainTestBinding.navigationView.setNavigationItemSelectedListener(this);
+
+        NavigationUI.setupActionBarWithNavController(this, navController, activityMainTestBinding.drawerLayout);
 
     }
 

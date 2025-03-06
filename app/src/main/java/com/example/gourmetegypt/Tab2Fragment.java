@@ -72,7 +72,7 @@ public class Tab2Fragment extends Fragment {
         recyclerRecipe = view.findViewById(R.id.recyclerRecipeTab2);
         recyclerRecipe.setLayoutManager(gridLayoutManager);
 
-        int[] recipeImages = {R.drawable.recipe3, R.drawable.recipe6, R.drawable.recipe1, R.drawable.recipe4, R.drawable.recipe7,
+        int[] recipeImages = {R.drawable.recipe3, R.drawable.recipe6, R.drawable.recipe2, R.drawable.recipe4, R.drawable.recipe7,
                 R.drawable.recipe2, R.drawable.recipe5};
         String[] recipeTitles = {"Whole Roasted Chicken",
                 "Marinated Australian Lamb Leg Recipe",

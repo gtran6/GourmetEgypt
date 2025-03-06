@@ -74,7 +74,7 @@ public class HomeFragment extends Fragment {
         //recyclerviewmain = root.findViewById(R.id.recyclerviewmain);
         fragmentHomeBinding.recyclerviewmain.setLayoutManager(linearLayoutManager);
         //recyclerviewmain.setLayoutManager(linearLayoutManager);
-        int[]images = {R.drawable.pic1,R.drawable.pic2,R.drawable.pic3,R.drawable.pic4, R.drawable.pic5, R.drawable.pic6};
+        int[]images = {R.drawable.pic2,R.drawable.pic2,R.drawable.pic3,R.drawable.pic4, R.drawable.pic5, R.drawable.pic4};
         adapter = new MenuListAdapter(images);
         fragmentHomeBinding.recyclerviewmain.setAdapter(adapter);
 
